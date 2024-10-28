@@ -1,4 +1,4 @@
-import { add, subtract } from './functions/index.js'
+import * as $ from './functions'
 
-console.log(add(1, 2))
-console.log(subtract(50, 2))
+const output = $.add(1, 5)
+console.log(output)

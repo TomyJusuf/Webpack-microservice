@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _functions_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions/index.js */ \"./functions/index.js\");\n\nconsole.log((0,_functions_index_js__WEBPACK_IMPORTED_MODULE_0__.add)(1, 2))\n\nconsole.log((0,_functions_index_js__WEBPACK_IMPORTED_MODULE_0__.subtract)(50, 2))\n\n\n//# sourceURL=webpack://webpack_micro_frontend_service/./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _functions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./functions */ \"./functions/index.js\");\n\n\nconst output = _functions__WEBPACK_IMPORTED_MODULE_0__.add(1, 5)\nconsole.log(output)\n\n\n//# sourceURL=webpack://webpack_micro_frontend_service/./main.js?");
 
 /***/ })
 
