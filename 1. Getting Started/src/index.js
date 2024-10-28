@@ -1,4 +1,5 @@
-function buttonClicked() {
+import _ from 'lodash'
+const buttonClicked = () => {
   const el = document.getElementById('header')
   el.textContent = 'Hello,I ben updated'
 
@@ -9,4 +10,8 @@ function buttonClicked() {
     li.textContent = element
     ul.appendChild(li)
   })
+
+  console.log('clicked')
 }
+const button = document.querySelector('button')
+button.addEventListener('click', buttonClicked)
