@@ -1,4 +1,4 @@
-import * as style from './style.css'
+import './style.css'
 import './clearButtonJS'
 
 const btn1 = document.getElementById('button1')
@@ -7,5 +7,5 @@ function buttonEvent() {
   el.textContent = 'Hello,I ben updated'
 }
 
-btn1.classList.add(style.button)
+btn1.classList.add('button')
 btn1.addEventListener('click', buttonEvent)
