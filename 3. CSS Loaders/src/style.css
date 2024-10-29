@@ -1,0 +1,11 @@
+#header {
+  text-decoration: underline;
+  text-align: center;
+  color: blue;
+}
+button {
+  background-color: red;
+  color: white;
+  margin: 0 auto;
+  display: block;
+}
