@@ -1,0 +1,9 @@
+$button-color: rgb(229, 255, 0);
+
+.clearButton {
+  background-color: $button-color;
+  color: rgb(144, 18, 18);
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+}
