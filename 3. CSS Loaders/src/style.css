@@ -3,9 +3,11 @@
   text-align: center;
   color: blue;
 }
-button {
-  background-color: red;
-  color: white;
-  margin: 0 auto;
-  display: block;
+
+.button {
+  border: red 3px solid;
+  color: black;
+  background-color: green;
+  margin: auto 0;
+  text-align: center;
 }
