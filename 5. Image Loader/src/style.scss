@@ -1,0 +1,15 @@
+$button-color: rgb(218, 192, 221);
+$header-background: orange;
+:global(#header) {
+  text-decoration: underline;
+  text-align: center;
+  color: blue;
+  background-color: $header-background;
+}
+button {
+  background-color: $button-color;
+  color: rgb(30, 27, 27);
+  font-weight: bold;
+  margin: 0 auto;
+  display: block;
+}
